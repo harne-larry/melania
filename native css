@@ -82,6 +82,7 @@
 <body>
     <div class="container">
         <div class="card">
+            <!-- ...existing code... -->
             <h1 class="main-heading">
                 Hello, World!
             </h1>
@@ -91,6 +92,25 @@
             <button class="cta-button">
                 Get Started
             </button>
+            <!-- New content starts here -->
+            <hr style="margin:2rem 0;">
+            <h2 style="font-size:1.5rem; color:#334155; margin-bottom:0.5rem;">Features</h2>
+            <ul style="text-align:left; color:#475569; font-size:1rem; margin:0 auto 1.5rem; max-width:24rem; padding-left:1.2rem;">
+                <li>Modern, responsive layout using Flexbox</li>
+                <li>Custom card component with shadow and rounded corners</li>
+                <li>Google Fonts integration for clean typography</li>
+                <li>Accessible, keyboard-friendly button</li>
+                <li>Easy to extend and customize</li>
+            </ul>
+            <h2 style="font-size:1.5rem; color:#334155; margin-bottom:0.5rem;">About</h2>
+            <p style="color:#64748b; font-size:1rem; margin-bottom:1.5rem;">
+                This template is a great starting point for landing pages, portfolios, or any project where you want a clean look without external CSS frameworks.
+            </p>
+            <h2 style="font-size:1.5rem; color:#334155; margin-bottom:0.5rem;">Contact</h2>
+            <p style="color:#64748b; font-size:1rem;">
+                Have questions or want to collaborate? <a href="mailto:youremail@example.com" style="color:#4f46e5; text-decoration:underline;">Email me</a>.
+            </p>
+            <!-- ...existing code...
         </div>
     </div>
 </body>
