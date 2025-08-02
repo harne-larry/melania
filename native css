@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, Native CSS!</title>
+
+    <!-- Load Inter font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /*
+         * This CSS file provides all the styling for the page,
+         * replacing the utility classes from a framework like Tailwind.
+         */
+
+        /* Basic reset and font setting */
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #e2e8f0; /* bg-slate-200 */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            line-height: 1.5;
+        }
+
+        /* Main container to center the content */
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 1rem; /* p-4 */
+        }
+
+        /* Card styles */
+        .card {
+            background-color: #ffffff; /* bg-white */
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); /* shadow-2xl */
+            padding: 2rem; /* p-8 */
+            max-width: 32rem; /* max-w-lg */
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Headings and paragraphs */
+        .main-heading {
+            font-size: 3rem; /* text-5xl */
+            font-weight: 700; /* font-bold */
+            color: #1e293b; /* text-slate-800 */
+            margin-bottom: 1rem; /* mb-4 */
+        }
+
+        .subtitle {
+            font-size: 1.25rem; /* text-xl */
+            color: #475569; /* text-slate-600 */
+        }
+
+        /* Button styles */
+        .cta-button {
+            margin-top: 2rem; /* mt-8 */
+            padding: 0.75rem 1.5rem; /* px-6 py-3 */
+            background-color: #4f46e5; /* bg-indigo-600 */
+            color: #ffffff; /* text-white */
+            font-weight: 600; /* font-semibold */
+            border-radius: 0.5rem; /* rounded-lg */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+            border: none;
+            cursor: pointer;
+            transition-property: background-color;
+            transition-duration: 300ms;
+        }
+
+        .cta-button:hover {
+            background-color: #4338ca; /* hover:bg-indigo-700 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 class="main-heading">
+                Hello, World!
+            </h1>
+            <p class="subtitle">
+                This is a simple HTML file styled with native CSS. It's clean, responsive, and ready to be customized!
+            </p>
+            <button class="cta-button">
+                Get Started
+            </button>
+        </div>
+    </div>
+</body>
+</html>
